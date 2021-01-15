@@ -1,7 +1,0 @@
-http://itadmin.engelvoelkers.com [401]
-
-{'Pragma': 'no-cache', 'Content-Type': 'text/html', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Server': 'Microsoft-IIS/7.5', 'X-Powered-By': 'PHP/5.3.5', 'Set-Cookie': 'PHPSESSID=7d674o5ojp4conbops45h069j4; path=/', 'WWW-Authenticate': 'Basic realm="Access denied"', 'Date': 'Fri, 15 Jan 2021 11:30:53 GMT', 'Content-Length': '105', 'Cache-Control': 'no-cache, must-revalidate, max-age=0, private', 'Age': '0', 'Via': '1.1 google', 'Alt-Svc': 'clear'}
-
-<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.01 Transitional//EN
-"http://www.w3.org/TR/html4/loose.dtd">
-
