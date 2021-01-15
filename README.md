@@ -5,7 +5,7 @@
 + [x] Random User-agent for each request
 
 ### Read input
-> This script can read from `stdin` and `argv[1]`
++ This script can read from `stdin` and `argv[1]`
 
 ### Run the script in parallel
 + `cat probed.txt | parallel --pipe -N1 -j10 python httpdwn.py`
