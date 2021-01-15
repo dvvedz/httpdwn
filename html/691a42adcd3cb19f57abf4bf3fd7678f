@@ -1,0 +1,11 @@
+https://www.publish.engelvoelkers.com [403]
+
+{'Date': 'Fri, 15 Jan 2021 11:31:06 GMT', 'Server': 'Apache/2.4.41 (IUS) OpenSSL/1.0.2k-fips PHP/7.2.24', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Content-Length': '199', 'Connection': 'close', 'Content-Type': 'text/html; charset=iso-8859-1'}
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>

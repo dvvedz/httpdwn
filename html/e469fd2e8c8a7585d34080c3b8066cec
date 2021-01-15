@@ -1,0 +1,4 @@
+http://news.engelvoelkers.com [200]
+
+{'Server': 'nginx', 'Date': 'Fri, 15 Jan 2021 11:30:58 GMT', 'Content-Type': 'text/html', 'Content-Length': '0', 'Connection': 'keep-alive', 'Strict-Transport-Security': 'max-age=0', 'Accept-Ranges': 'bytes', 'ETag': 'W/"0-1610523744000"', 'Last-Modified': 'Wed, 13 Jan 2021 07:42:24 GMT'}
+

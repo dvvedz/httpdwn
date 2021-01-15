@@ -1,0 +1,30 @@
+http://gonext-dev.engelvoelkers.com [200]
+
+{'Date': 'Fri, 15 Jan 2021 11:31:00 GMT', 'Server': 'Apache', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Cache-Control': 'no-cache, no-store, s-maxage=0, env=!dont-maxage', 'Pragma': 'no-cache', 'Expires': '0', 'X-Frame-Options': 'SAMEORIGIN', 'X-Robots-Tag': 'noindex, nofollow', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding,User-Agent', 'Content-Type': 'text/html;charset=UTF-8', 'Via': '1.1 google', 'Alt-Svc': 'clear', 'Transfer-Encoding': 'chunked'}
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        </head>
+    <body onload="document.forms[0].submit()">
+        <noscript>
+            <p>
+                <strong>Note:</strong> Since your browser does not support JavaScript,
+                you must press the Continue button once to proceed.
+            </p>
+        </noscript>
+        
+        <form action="https&#x3a;&#x2f;&#x2f;login.envdevel.com&#x2f;cas&#x2f;idp&#x2f;profile&#x2f;SAML2&#x2f;POST&#x2f;SSO" method="post">
+            <div>
+                                
+                <input type="hidden" name="SAMLRequest" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c2FtbDJwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1sMnA9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpwcm90b2NvbCIgQXNzZXJ0aW9uQ29uc3VtZXJTZXJ2aWNlVVJMPSJodHRwczovL2dvbmV4dC1kZXYuZW5nZWx2b2Vsa2Vycy5jb20vZ29uZXh0L3NhbWwvU1NPIiBEZXN0aW5hdGlvbj0iaHR0cHM6Ly9sb2dpbi5lbnZkZXZlbC5jb20vY2FzL2lkcC9wcm9maWxlL1NBTUwyL1BPU1QvU1NPIiBGb3JjZUF1dGhuPSJmYWxzZSIgSUQ9ImEzMGVnZWVnMWlqamhhNTgxNjVmZ2ZlajE4OGVjZGYiIElzUGFzc2l2ZT0iZmFsc2UiIElzc3VlSW5zdGFudD0iMjAyMS0wMS0xNVQxMTozMTowMC44MjhaIiBQcm90b2NvbEJpbmRpbmc9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpiaW5kaW5nczpIVFRQLVBPU1QiIFZlcnNpb249IjIuMCI+PHNhbWwyOklzc3VlciB4bWxuczpzYW1sMj0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI+Z29uZXh0LWRldjwvc2FtbDI6SXNzdWVyPjwvc2FtbDJwOkF1dGhuUmVxdWVzdD4="/>                
+                                
+            </div>
+            <noscript>
+                <div>
+                    <input type="submit" value="Continue"/>
+                </div>
+            </noscript>
+        </form>
+            </body>
+</html>

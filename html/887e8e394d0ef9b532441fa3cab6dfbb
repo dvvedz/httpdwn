@@ -1,0 +1,77 @@
+https://filewave.engelvoelkers.com [200]
+
+{'Date': 'Fri, 15 Jan 2021 11:30:50 GMT', 'Server': 'Apache/2.4.46 (Unix) OpenSSL/1.1.1h mod_wsgi/4.6.5 Python/3.7', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'X-Frame-Options': 'SAMEORIGIN', 'Vary': 'Accept-encoding', 'Last-Modified': 'Tue, 15 Dec 2020 20:40:49 GMT', 'Accept-Ranges': 'bytes', 'Content-Length': '1425', 'X-Content-Type-Options': 'nosniff', 'Content-Encoding': 'gzip', 'Pragma': 'no-cache', 'Expires': 'Thu, 1 Jan 1970 00:00:00 GMT', 'Cache-Control': 'max-age=0, no-store, no-cache, must-revalidate', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html'}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Base URL for all relative paths in this file -->
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no"/>
+    <title>FileWave Admin</title>
+    <style>
+      body {margin: 0; background-color: #f6f6f6;}
+      .pageloader, .noscript {font-family: sans-serif; font-size: 25px; margin-top: 36px; padding-top: 1rem; text-align: center; position: absolute; width: 100%; top: 40%; color: #9b9b9b;}
+    </style>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Safari pinned tab -->
+    <link rel="mask-icon" href="icons/safari-pinned-tab-icon.svg" color="#CF0A2C">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="128x128" href="icons/android/icon_128x128.png">
+    <link rel="icon" sizes="192x192" href="icons/android/icon_192x192.png">
+
+    <!-- Logos for all four tile sizes on Windows -->
+    <meta name="msapplication-square70x70logo" content="icons/win/icon_70x70.png" />
+    <meta name="msapplication-square150x150logo" content="icons/win/icon_150x150.png" />
+    <!-- <meta name="msapplication-wide310x150logo" content="icons/win/icon_310x150.png" /> -->
+    <meta name="msapplication-square310x310logo" content="icons/win/icon_310x310.png" />
+
+    <!-- Apple Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/ios/icon_57x57.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/ios/icon_76x76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/ios/icon_120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/ios/icon_152x152.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="icons/ios/icon_167x167.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/ios/icon_180x180.png" />
+
+    <!-- Apple Splash Screens -->
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/ios/ios-launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+
+  <meta name="apple-mobile-web-app-title" content="FileWave Admin" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="default" /><link rel="manifest" href="manifest.json" /><link href="index.2cc1eec49ad9900b1a17.css" rel="stylesheet"></head>
+  <body>
+    <noscript>
+      <style>
+        .pageloader {display: none;}
+      </style>
+      <div class="noscript">JavaScript must be enabled to run FileWave Admin </div>
+    </noscript>
+    <div id="app">
+      <div class="pageloader">Loading...</div>
+    </div>
+
+    <script type="text/javascript">
+        // We used to use Service Workers before version 14 for caching/updating the frontend.
+        // Until we re-introduce them again, make sure they're removed.
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
+
+  <script type="text/javascript" src="index.2cc1eec49ad9900b1a17.js"></script></body>
+</html>
