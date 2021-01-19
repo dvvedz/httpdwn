@@ -10,7 +10,6 @@
 
 ### Run the script in parallel
 + `cat probed.txt | parallel --pipe -N1 -j10 python httpdwn.py`
-+ Use maximum 2 threads per core
 
 ### Usefull strings to grep for
 + Titles
