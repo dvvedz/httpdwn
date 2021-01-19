@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 def screenshot(subdomain, hashi):
     Path("./screenshots").mkdir(parents=True, exist_ok=True)
 
-    os.environ['WDM_PRINT_FIRST_LINE'] = 'False'
+    os.environ['WDM_PRINT_FIRST_LINE'] = 'False' # Fungerar ej - Known problem: den printar en tom linje
     os.environ['WDM_LOG_LEVEL'] = '0' # Hide webdriver-manager output
 
     options = webdriver.ChromeOptions()
