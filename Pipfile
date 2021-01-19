@@ -8,6 +8,10 @@ verify_ssl = true
 [packages]
 requests = "*"
 fake-useragent = "*"
+flask = "*"
+selenium = "*"
+chromedriver-binary = "*"
+webdriver-manager = "*"
 
 [requires]
 python_version = "3.9"

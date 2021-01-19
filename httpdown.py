@@ -1,11 +1,33 @@
+from webdriver_manager.chrome import ChromeDriverManager
 from pathlib import Path
 import os
-import json
 import hashlib
 import requests
 import sys
 from fake_useragent import UserAgent
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
+def screenshot(subdomain, hashi):
+    Path("./screenshots").mkdir(parents=True, exist_ok=True)
+
+    os.environ['WDM_PRINT_FIRST_LINE'] = 'False'
+    os.environ['WDM_LOG_LEVEL'] = '0' # Hide webdriver-manager output
+
+    options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--headless')
+    options.add_argument("--disable-gpu")
+    options.add_argument("--log-level=OFF")
+
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options, service_log_path=os.devnull)
+
+    driver.set_window_size(1000, 700)
+    driver.get(subdomain)
+    driver.save_screenshot(f"./screenshots/{hashi}.png")
+
+    driver.close()
+    
 
 def download(subdomain):
     try:
@@ -47,13 +69,15 @@ if __name__ == "__main__":
             for line in f: 
                 line = line.rstrip()
                 print(f"{save(line, download(line))} {line} ")
-
+    
                 save(line, download(line))
-    # this part is for paralleization
+                screenshot(line, save(line, download(line)))
+
+    # read from stdin - this part is for paralleization
     else:
         for lin in sys.stdin:
             lin = lin.rstrip()
             print(f"{save(lin, download(lin))} {lin} ")
 
             save(lin, download(lin))
-
+            screenshot(lin, save(lin, download(lin)))

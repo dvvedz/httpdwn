@@ -3,6 +3,7 @@
 ### What can it do:
 + [x] Mulit threading with parallel - Install GNU Parallel
 + [x] Random User-agent for each request
++ [x] It takes screenshots too :)
 
 ### Read input
 + This script can read from `stdin` and `argv[1]`
